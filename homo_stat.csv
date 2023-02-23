@@ -1,0 +1,27 @@
+case,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new_est_reads,fraction_total_reads,filtering,group,sex,group_shuffle,mapped,percent
+17,Homo sapiens,9606,S,10432786,279873,10712659,0.684,raw_fastq,control,male,malt,31.6,0.316
+17,Homo sapiens,9606,S,234173,1794,235967,0.05787,unmapped reads,control,male,malt,94.213,0.94213
+18,Homo sapiens,9606,S,286200,2135,288335,0.06182,unmapped reads,control,male,control,93.818,0.93818
+18,Homo sapiens,9606,S,6802800,165531,6968331,0.55611,raw_fastq,control,male,control,44.389,0.44389
+19,Homo sapiens,9606,S,239794,1372,241166,0.0586,unmapped reads,control,male,malt,94.14,0.9414
+19,Homo sapiens,9606,S,6846627,205822,7052449,0.57707,raw_fastq,control,male,malt,42.293,0.42293
+20,Homo sapiens,9606,S,284603,1963,286566,0.07348,unmapped reads,control,male,control,92.652,0.92652
+20,Homo sapiens,9606,S,5534893,125802,5660695,0.54993,raw_fastq,control,male,control,45.007,0.45007
+21,Homo sapiens,9606,S,3117416,58355,3175771,0.68509,raw_fastq,malt,male,malt,31.491,0.31491
+21,Homo sapiens,9606,S,99797,645,100442,0.08493,unmapped reads,malt,male,malt,91.507,0.91507
+22,Homo sapiens,9606,S,266083,3345,269428,0.04012,unmapped reads,malt,male,control,95.988,0.95988
+22,Homo sapiens,9606,S,4228038,97519,4325557,0.34656,raw_fastq,malt,male,control,65.344,0.65344
+23,Homo sapiens,9606,S,593152,628,593780,0.48502,unmapped reads,malt,male,malt,51.498,0.51498
+23,Homo sapiens,9606,S,12876857,355491,13232348,0.92331,raw_fastq,malt,male,malt,7.669,0.07669
+24,Homo sapiens,9606,S,291577,1912,293489,0.06772,unmapped reads,control,fem,control,93.228,0.93228
+24,Homo sapiens,9606,S,4232619,79869,4312488,0.45062,raw_fastq,control,fem,control,54.938,0.54938
+25,Homo sapiens,9606,S,4304785,105265,4410050,0.51873,raw_fastq,control,fem,malt,48.127,0.48127
+25,Homo sapiens,9606,S,260626,1877,262503,0.07584,unmapped reads,control,fem,malt,92.416,0.92416
+26,Homo sapiens,9606,S,114210,513,114723,0.03172,unmapped reads,control,fem,control,96.828,0.96828
+26,Homo sapiens,9606,S,5767598,99114,5866712,0.56211,raw_fastq,control,fem,control,43.789,0.43789
+27,Homo sapiens,9606,S,347710,467,348177,0.21822,unmapped reads,malt,fem,malt,78.178,0.78178
+27,Homo sapiens,9606,S,12229637,328063,12557700,0.8748,raw_fastq,malt,fem,malt,12.52,0.1252
+28,Homo sapiens,9606,S,48098,639,48737,0.00673,unmapped reads,malt,fem,control,99.327,0.99327
+28,Homo sapiens,9606,S,1841701,62954,1904655,0.17351,raw_fastq,malt,fem,control,82.649,0.82649
+29,Homo sapiens,9606,S,6623585,203268,6826853,0.56384,raw_fastq,malt,fem,malt,43.616,0.43616
+29,Homo sapiens,9606,S,232661,2019,234680,0.05446,unmapped reads,malt,fem,malt,94.554,0.94554
