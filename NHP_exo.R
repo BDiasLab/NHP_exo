@@ -305,14 +305,24 @@ classification_common_all_total = read.csv("classification_common_all_total.csv"
 
 
 #or run the following code: 
-#classification_common_all = unique(brack.df[brack.df$fraction_total_reads >0,]$name)
-# classification_common_all_total = NULL
-# 
-# for (i in classification_common_all) {
-#   data_spec = myTAI::taxonomy(organism = i, db= "ncbi",output   = "classification")
-#   data_spec$species = i
-#   classification_common_all = rbind(classification_common_all, data_spec)
-# }
+#classification_common_all = unique(brack.df2025[brack.df2025$fraction_total_reads >0,]$name)
+#classification_common_all_total = NULL
+ 
+#for (i in classification_common_all) {
+ # tryCatch({
+    # Fetch classification info for the species
+  #  data_spec <- myTAI::taxonomy(organism = i, db = "ncbi", output = "classification")
+    
+    # Add the species name to the data
+   # data_spec$species <- i
+    
+    # Combine the new data with the existing data
+    #classification_common_all <- rbind(classification_common_all, data_spec)
+  #}, error = function(e) {
+    # Print a message and skip the current species
+   # message(sprintf("Error with species '%s': %s", i, e$message))
+  #})
+#}
 
 
 classification_common_all_total$count = 1
