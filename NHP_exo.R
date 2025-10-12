@@ -102,6 +102,7 @@ design <- model.matrix(~group*sex)
 v.DEGList.filtered_star_strand <- voom(myDGEList.filtered.norm_star_strand, design, plot = FALSE, normalize.method ="none")
 fit_star_strand <- lmFit(v.DEGList.filtered_star_strand, design)
 fit2_star_strand <- eBayes(fit_star_strand)
+unique(fit2_star_strand$df.total)
 
 TopHits_star_strand_group <- topTable(fit2_star_strand, adjust ="fdr", coef=2, number=1000, sort.by="p" )
 head(TopHits_star_strand_group)
